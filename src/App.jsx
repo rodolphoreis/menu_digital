@@ -10,8 +10,8 @@ import "./styles.css";
 export default function App() {
   return (
     <Provider>
+      <Logo />
       <div className="menu">
-        <Logo />
         <Mains meals={pratos} />
         <aside className="aside">
           <Extras type="Acompanhamentos" items={acompanhamentos} />

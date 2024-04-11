@@ -1,0 +1,104 @@
+{
+  "pratos": [
+    {
+      "nome": "Bacalhau à Brás",
+      "descrição": "Bacalhau desfiado refogado com cebola, batata palha e ovos mexidos.",
+      "preço": "22",
+      "imagem": "/images/bacalhau_a_bras.jpg"
+    },
+    {
+      "nome": "Francesinha",
+      "descrição": "Sanduíche de carne, linguiça, salsicha, presunto e queijo, coberto com molho de tomate picante e servido com batatas fritas.",
+      "preço": "20",
+      "imagem": "/images/francesinha.jpeg"
+    },
+    {
+      "nome": "Arroz de Pato",
+      "descrição": "Arroz cozido com pedaços de pato, linguiça, chouriço e coberto com fatias de presunto.",
+      "preço": "25",
+      "imagem": "/images/arroz_de_pato.jpeg"
+    },
+    {
+      "nome": "Caldeirada de Peixe",
+      "descrição": "Sopa de peixe tradicional com vários tipos de peixe, batatas, tomate, pimentão e coentro.",
+      "preço": "24",
+      "imagem": "/images/caldeirada_de_peixe.jpg"
+    },
+    {
+      "nome": "Carne de Porco à Alentejana",
+      "descrição": "Carne de porco frita com amêijoas, batatas fritas, alho e coentro.",
+      "preço": "23",
+      "imagem": "/images/carne_de_porco_a_alentejana.jpg"
+    }
+  ],
+  "acompanhamentos": [
+    {
+      "nome": "Batatas Fritas",
+      "preço": "5",
+      "imagem": "/images/batatas_fritas.jpg"
+    },
+    {
+      "nome": "Rústico de Pão",
+      "preço": "4",
+      "imagem": "/images/rustico_de_pao.jpg"
+    },
+    {
+      "nome": "Salada",
+      "preço": "6",
+      "imagem": "/images/salada.jpg"
+    },
+    {
+      "nome": "Arroz",
+      "preço": "3",
+      "imagem": "/images/arroz.jpg"
+    },
+    {
+      "nome": "Legumes Grelhados",
+      "preço": "5",
+      "imagem": "/images/legumes_grelhados.jpg"
+    },
+    {
+      "nome": "Broa de Milho",
+      "preço": "4",
+      "imagem": "/images/broa_de_milho.jpg"
+    }
+  ],
+  "bebidas": [
+    {
+      "nome": "Vinho do Porto",
+      "preço": "10",
+      "categoria": "bebida",
+      "imagem": "/images/vinho_do_porto.jpg"
+    },
+    {
+      "nome": "Vinho Verde",
+      "preço": "8",
+      "categoria": "bebida",
+      "imagem": "/images/vinho_verde.jpg"
+    },
+    {
+      "nome": "Sangria",
+      "preço": "9",
+      "categoria": "bebida",
+      "imagem": "/images/sangria.jpg"
+    },
+    {
+      "nome": "Ginjinha",
+      "preço": "7",
+      "categoria": "bebida",
+      "imagem": "/images/ginjinha.jpg"
+    },
+    {
+      "nome": "Portonic",
+      "preço": "11",
+      "categoria": "bebida",
+      "imagem": "/images/portonic.jpg"
+    },
+    {
+      "nome": "Moscatel",
+      "preço": "12",
+      "categoria": "bebida",
+      "imagem": "/images/moscatel.jpg"
+    }
+  ]
+}

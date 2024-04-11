@@ -12,8 +12,9 @@ export default function Mains({ meals }) {
       showCancelButton: false,
       confirmButtonColor: "#4a4a4a",
       confirmButtonText: "Fechar",
+      confirmButtonClass: "custom-close-button",
       focusConfirm: false,
-      width: "300px",
+      width: "280px",
       height: "auto",
     });
   };

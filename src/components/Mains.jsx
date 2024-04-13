@@ -1,5 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+
+const BackButton = () => {
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
+  return (
+    <button onClick={handleGoBack} className="button_voltar">
+      Voltar
+    </button>
+  );
+};
 
 export default function Mains({ meals }) {
   const openModal = (meal) => {
@@ -36,6 +51,7 @@ export default function Mains({ meals }) {
           <p className="mains-description">{meal.descrição}</p>
         </article>
       ))}
+      <BackButton />
     </section>
   );
 }

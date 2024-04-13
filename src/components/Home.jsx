@@ -1,6 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+const BackButton = () => {
+  const location = useLocation();
+  const history = useHistory();
+
+  const handleGoBack = () => {
+    history.goBack();
+  };
+
+  if (location.pathname === "/") {
+    return null;
+  }
+
+  return (
+    <button onClick={handleGoBack} className="button_voltar">
+      Voltar
+    </button>
+  );
+};
+
 const Home = () => {
   return (
     <div className="centered-buttons">

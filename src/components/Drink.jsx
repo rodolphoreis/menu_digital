@@ -1,15 +1,35 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function Drink({ type, items }) {
+const BackButton = () => {
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
   return (
-    <section className="extras">
-      <h2 className="extras-heading">{type}</h2>
-      {items.map((item, index) => (
-        <article className="menu-item" key={index}>
-          <div className="extras-name">{item.nome}</div>
-          <strong className="extras-price">€{item.preço}</strong>
-        </article>
-      ))}
-    </section>
+    <button onClick={handleGoBack} className="button_voltar">
+      Voltar
+    </button>
   );
-}
+};
+
+const Drink = ({ type, items }) => {
+  return (
+    <div>
+      <section className="extras">
+        <h2 className="extras-heading">{type}</h2>
+        {items.map((item, index) => (
+          <article className="menu-item" key={index}>
+            <div className="extras-name">{item.nome}</div>
+            <strong className="extras-price">€{item.preço}</strong>
+          </article>
+        ))}
+        <BackButton />
+      </section>
+    </div>
+  );
+};
+
+export default Drink;

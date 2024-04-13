@@ -1,7 +1,7 @@
 :root {
-  --primary: #000000;
-  --secondary: #343434;
-  --light: #fafafd;
+  --primary: #ffffff;
+  --secondary: #ffffff;
+  --light: #ffffff;
 }
 
 html {
@@ -20,11 +20,16 @@ html {
 }
 
 body {
-  color: var(--primary);
-  background-color: var(--primary);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
     sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #000000;
+  }
 }
 
 input {
@@ -37,6 +42,50 @@ input {
   border-radius: 50%;
   text-align: center;
 }
+
+/* Home */
+.centered-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3c3c3c;
+}
+@media screen and (max-width: 600px) {
+  .button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #3c3c3c;
+  }
+}
+/* Home */
 
 .meal-info {
   display: flex;
@@ -91,13 +140,13 @@ input {
 }
 
 .logo img {
-  width: 280px;
-  margin: 0 auto 2rem;
+  width: 356px;
+  margin: 0 auto;
   display: block;
   grid-column: 1 / 3;
 }
 
-@media (min-width: 660px) {
+@media screen and (min-width: 660px) {
   .logo {
     margin-bottom: 0;
   }
@@ -115,6 +164,7 @@ input {
 .mains-description {
   flex: 1 1 100%;
   margin: 0.75rem 0 0;
+  margin-bottom: 30px;
   color: var(--secondary);
 }
 
@@ -124,6 +174,7 @@ input {
 
 .extras {
   color: var(--secondary);
+  padding: 25px;
 }
 
 .extras + .extras {
@@ -147,6 +198,7 @@ input {
 
 .extras-name {
   flex-grow: 1;
+  margin-bottom: 20px;
 }
 
 .total {

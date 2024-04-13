@@ -70,7 +70,7 @@ input {
 @media screen and (max-width: 600px) {
   .button {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
     text-decoration: none;
@@ -87,6 +87,18 @@ input {
 }
 /* Home */
 
+.button_voltar {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: 12px;
+  cursor: pointer;
+}
 .meal-info {
   display: flex;
   flex-direction: column;
@@ -154,6 +166,7 @@ input {
 
 .mains {
   grid-column: 1 / 2;
+  margin-top: -30px;
 }
 
 .mains-name {
@@ -175,15 +188,16 @@ input {
 .extras {
   color: var(--secondary);
   padding: 25px;
+  margin-top: -48px;
 }
 
 .extras + .extras {
-  margin-top: 1.5rem;
+  margin-top: -48px;
 }
 
 @media (min-width: 660px) {
   .extras + .extras {
-    margin-top: 2.5rem;
+    margin-top: -48px;
   }
 }
 

@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <div className="container">
       <div className="logo">
-        <img src="/logo.jpeg" alt="Logo" />
+        <img src="/logotipo.png" alt="Logo" />
       </div>
     </div>
   );

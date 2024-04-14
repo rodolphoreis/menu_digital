@@ -26,8 +26,10 @@ const Drink = ({ type, items }) => {
             <strong className="extras-price">€{item.preço}</strong>
           </article>
         ))}
-        <BackButton />
       </section>
+      <div className="BackButton">
+        <BackButton />
+      </div>
     </div>
   );
 };

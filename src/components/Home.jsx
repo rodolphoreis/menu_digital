@@ -29,6 +29,9 @@ const Home = () => {
       <Link to="/extras" className="button">
         Acompanhamentos
       </Link>
+      <Link to="/sobremesas" className="button">
+        sobremesas
+      </Link>
       <Link to="/drink" className="button">
         Bebidas
       </Link>

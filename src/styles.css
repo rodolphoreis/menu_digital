@@ -52,7 +52,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 57px;
+  margin-top: 27px;
 }
 
 .button {
@@ -66,6 +66,9 @@ input {
   border: 1px solid white;
   border-radius: 12px;
   cursor: pointer;
+  width: 200px;
+  text-align: center;
+  margin-top: 9px;
 }
 
 .button:hover {

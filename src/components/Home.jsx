@@ -35,6 +35,9 @@ const Home = () => {
       <Link to="/drink" className="button">
         Bebidas
       </Link>
+      <Link to="/wine" className="button">
+        Vinhos
+      </Link>
     </div>
   );
 };

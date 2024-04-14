@@ -27,7 +27,9 @@ const Extras = ({ type, items }) => {
           </article>
         ))}
       </section>
-      <BackButton />
+      <div className="BackButton">
+        <BackButton />
+      </div>
     </div>
   );
 };

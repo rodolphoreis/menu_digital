@@ -106,19 +106,19 @@
       "nome": "Quinta do Crasto Tinto",
       "descrição": "Um vinho tinto encorpado e complexo, com notas de frutas vermelhas maduras e nuances de carvalho.",
       "preço": "30",
-      "imagem": "/images/quinta_do_crasto_tinto.jpg"
+      "imagem": "/images/crasto-tinto.webp"
     },
     {
       "nome": "Quinta do Crasto Branco",
       "descrição": "Um vinho branco fresco e aromático, com notas cítricas e florais.",
       "preço": "25",
-      "imagem": "/images/quinta_do_crasto_branco.jpg"
+      "imagem": "/images/crasto-branco.webp"
     },
     {
       "nome": "Quinta do Vallado",
       "descrição": "Um vinho tinto elegante e estruturado, com taninos suaves e aromas complexos de frutas maduras e especiarias.",
       "preço": "35",
-      "imagem": "/images/quinta_do_vallado.jpg"
+      "imagem": "/images/vallado-tinto.jpeg"
     },
     {
       "nome": "Soalheiro Alvarinho",

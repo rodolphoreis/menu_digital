@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const BackButton = () => {
   const navigate = useNavigate();
@@ -16,6 +17,29 @@ const BackButton = () => {
 };
 
 const Wine = ({ type, items }) => {
+  const openModal = (item) => {
+    Swal.fire({
+      imageUrl: item.imagem,
+      imageWidth: 144,
+      imageHeight: 250,
+      imageAlt: item.nome,
+      showCloseButton: false,
+      showCancelButton: false,
+      confirmButtonColor: "#a37443",
+      confirmButtonText: "Fechar",
+      confirmButtonClass: "custom-close-button",
+      focusConfirm: false,
+      didRender: () => {
+        const confirmButton = document.querySelector(".swal2-confirm");
+        if (confirmButton) {
+          confirmButton.style.border = "none";
+        }
+      },
+      width: "280px",
+      height: "auto",
+    });
+  };
+
   return (
     <div>
       <section className="extras">
@@ -26,7 +50,7 @@ const Wine = ({ type, items }) => {
               {item.nome}
               <button
                 className="ver-imagem-button"
-                onClick={() => openModal(meal)}
+                onClick={() => openModal(item)}
               >
                 Ver Imagem
               </button>

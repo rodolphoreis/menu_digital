@@ -100,5 +100,81 @@
       "categoria": "bebida",
       "imagem": "/images/moscatel.jpg"
     }
+  ],
+  "vinhos": [
+    {
+      "nome": "Quinta do Crasto Tinto",
+      "descrição": "Um vinho tinto encorpado e complexo, com notas de frutas vermelhas maduras e nuances de carvalho.",
+      "preço": "30",
+      "imagem": "/images/quinta_do_crasto_tinto.jpg"
+    },
+    {
+      "nome": "Quinta do Crasto Branco",
+      "descrição": "Um vinho branco fresco e aromático, com notas cítricas e florais.",
+      "preço": "25",
+      "imagem": "/images/quinta_do_crasto_branco.jpg"
+    },
+    {
+      "nome": "Quinta do Vallado",
+      "descrição": "Um vinho tinto elegante e estruturado, com taninos suaves e aromas complexos de frutas maduras e especiarias.",
+      "preço": "35",
+      "imagem": "/images/quinta_do_vallado.jpg"
+    },
+    {
+      "nome": "Soalheiro Alvarinho",
+      "descrição": "Um vinho branco Alvarinho conhecido por sua frescura e aroma floral, com notas de frutas tropicais e cítricas.",
+      "preço": "28",
+      "imagem": "/images/soalheiro_alvarinho.jpg"
+    },
+    {
+      "nome": "Barca Velha",
+      "descrição": "Um ícone dos vinhos portugueses, conhecido por sua complexidade, elegância e longevidade.",
+      "preço": "150",
+      "imagem": "/images/barca_velha.jpg"
+    },
+    {
+      "nome": "Porto Ferreira Vintage",
+      "descrição": "Um dos mais renomados Vinhos do Porto Vintage, com sabores ricos e intensos de frutas escuras e especiarias.",
+      "preço": "80",
+      "imagem": "/images/porto_ferreira_vintage.jpg"
+    },
+    {
+      "nome": "Mateus Rosé",
+      "descrição": "Um vinho rosé leve e refrescante, com aromas florais e frutados, produzido na região do Douro.",
+      "preço": "20",
+      "imagem": "/images/mateus_rose.jpg"
+    },
+    {
+      "nome": "Dão Quinta da Pacheca Reserva",
+      "descrição": "Um vinho tinto encorpado, com taninos suaves e notas de frutas vermelhas maduras e especiarias.",
+      "preço": "40",
+      "imagem": "/images/quinta_da_pacheca_reserva.jpg"
+    }
+  ],
+  "sobremesas": [
+    {
+      "nome": "Pastéis de Nata",
+      "descrição": "Uma deliciosa sobremesa composta por massa folhada crocante recheada com creme de ovos, tradicional de Portugal.",
+      "preço": "3",
+      "imagem": "/images/pasteis_de_nata.jpg"
+    },
+    {
+      "nome": "Bolo de Bolacha",
+      "descrição": "Uma sobremesa feita com camadas de bolacha maria e creme de manteiga de café, muito popular em Portugal.",
+      "preço": "4",
+      "imagem": "/images/bolo_de_bolacha.jpg"
+    },
+    {
+      "nome": "Leite-Creme",
+      "descrição": "Um creme doce de leite aromatizado com casca de limão e canela, coberto com uma crosta de açúcar caramelizado.",
+      "preço": "5",
+      "imagem": "/images/leite_creme.jpg"
+    },
+    {
+      "nome": "Sericaia",
+      "descrição": "Um bolo tradicional alentejano feito com uma massa leve e fofa, coberto com ameixas em calda.",
+      "preço": "6",
+      "imagem": "/images/sericaia.jpg"
+    }
   ]
 }

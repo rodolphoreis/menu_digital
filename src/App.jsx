@@ -5,8 +5,10 @@ import Home from "./components/Home";
 import Mains from "./components/Mains";
 import Extras from "./components/Extras";
 import Drink from "./components/Drink";
+import Desserts from "./components/Desserts";
+import Wine from "./components/Wine";
 import { Provider } from "./Context";
-import { pratos, acompanhamentos, bebidas } from "./data";
+import { pratos, acompanhamentos, bebidas, sobremesas, vinhos } from "./data";
 import "./styles.css";
 
 export default function App() {
@@ -22,9 +24,14 @@ export default function App() {
             element={<Extras type="Acompanhamentos" items={acompanhamentos} />}
           />
           <Route
+            path="/sobremesas"
+            element={<Desserts type="Sobremesas" items={sobremesas} />}
+          />
+          <Route
             path="/drink"
             element={<Drink type="Bebidas" items={bebidas} />}
           />
+          <Route path="/wine" element={<Wine type="Vinhos" items={vinhos} />} />
         </Routes>
       </Router>
     </Provider>
